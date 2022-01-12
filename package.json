@@ -1,0 +1,19 @@
+{
+  "name": "pure-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server dist/",
+    "test": "start-server-and-test serve http://localhost:8080 cy:open",
+    "cy:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.2.1",
+    "http-server": "^14.1.0",
+    "start-server-and-test": "^1.14.0"
+  }
+}
